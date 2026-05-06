@@ -104,8 +104,9 @@ export default function Home({ scrollTo }) {
   const role = useTyped([
     "Software Engineer",
     "Frontend Developer",
+    "Backend Developer",
     "Blockchain Developer",
-    "Full Stack Developer",
+    "FullStack Developer",
   ]);
 
   return (
@@ -142,7 +143,7 @@ export default function Home({ scrollTo }) {
       </h2>
 
       <p style={{ color: "#a0b4c8", lineHeight: 1.85, fontSize: 15, maxWidth: 560, marginTop: 4 }}>
-        Highly Motivated Software Engineer with a strong foundation in Frontend Development
+        Highly Motivated Software Engineer with a strong foundation in FullStack Development
         and Blockchain technology. Passionate about building scalable, beautiful, and
         decentralised applications.
       </p>
