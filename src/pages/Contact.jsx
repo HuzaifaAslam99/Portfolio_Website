@@ -61,7 +61,7 @@ export default function Contact() {
         {/* LinkedIn */}
         <ContactRow
           label="LinkedIn Profile"
-          value="linkedin.com/in/huzaifa-aslam"
+          value="My Linkedin"
           href="https://www.linkedin.com/in/huzaifa-aslam-4845152aa"
           icon={
             <svg viewBox="0 0 24 24" fill="#00e5ff" style={{ width: 20, height: 20 }}>
