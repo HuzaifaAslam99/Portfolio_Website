@@ -1,5 +1,6 @@
 import foodCartImg from "../assets/images/foodcart.png";
 import ticketImg from "../assets/images/tickets.png";
+import votingImg from "../assets/images/voting.png";
 import githubIcon from "../assets/svg/github.svg"; // Assuming you still use this somewhere in your UI
 
 import tailwindIcon from "../assets/images/tailwind.png";
@@ -30,6 +31,16 @@ const PROJECTS = [
     tagIcons: [reactIcon, tailwindIcon, nodeIcon, expressIcon, mongoIcon, hardhatIcon, solidityIcon, blockchainIcon],
     tagNames: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Hardhat", "Solidity"],
     github: "https://github.com/HuzaifaAslam99/CricketVault-DApp",
+  },
+
+    {
+    title: "Voting DApp",
+    image: votingImg,
+    description:
+      "A fully decentralized, zero-backend voting DApp where all logic lives on-chain. Voters connect their MetaMask wallet and cast a vote for a candidate — enforced by a Solidity smart contract on Base Sepolia ensuring one wallet = one vote, making results tamper-proof and publicly verifiable by anyone. Live vote counts and percentages are rendered in real-time by reading directly from contract state via Ethers.js, with no server involved.",
+    tagIcons: [reactIcon, tailwindIcon, hardhatIcon, solidityIcon, blockchainIcon],
+    tagNames: ["React", "Tailwind CSS", "Hardhat", "Solidity"],
+    github: "https://github.com/HuzaifaAslam99/Voting-DApp",
   },
 ];
 

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import githubIcon from "../assets/svg/github.svg";
 import instagramIcon from "../assets/svg/instagram.svg";
 
-// ── Typewriter hook ──────────────────────────────────────────────────────────
+
 function useTyped(words, speed = 110, pause = 1800) {
   const [display, setDisplay] = useState("");
   const [wi, setWi] = useState(0);
