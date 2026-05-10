@@ -44,7 +44,6 @@ const PROJECTS = [
   },
 ];
 
-// export default PROJECTS; // Make sure to export it based on how your file is structured
 
 function ProjectCard({ title, image, description, tagIcons, tagNames, github }) {
   return (
