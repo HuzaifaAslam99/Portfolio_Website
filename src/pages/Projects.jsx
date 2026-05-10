@@ -37,7 +37,7 @@ const PROJECTS = [
     title: "Voting DApp",
     image: votingImg,
     description:
-      "A fully decentralized, zero-backend voting DApp where all logic lives on-chain. Voters connect their MetaMask wallet and cast a vote for a candidate — enforced by a Solidity smart contract on Base Sepolia ensuring one wallet = one vote, making results tamper-proof and publicly verifiable by anyone. Live vote counts and percentages are rendered in real-time by reading directly from contract state via Ethers.js, with no server involved.",
+      "A fully decentralized, zero-backend voting DApp where all logic lives on-chain. Voters connect their MetaMask wallet and cast a vote for a candidate, enforced by a Solidity smart contract on Base Sepolia ensuring one wallet = one vote, making results tamper-proof and publicly verifiable by anyone. Live vote counts and percentages are rendered in real-time by reading directly from contract state via Ethers.js, with no server involved.",
     tagIcons: [reactIcon, tailwindIcon, hardhatIcon, solidityIcon, blockchainIcon],
     tagNames: ["React", "Tailwind CSS", "Hardhat", "Solidity"],
     github: "https://github.com/HuzaifaAslam99/Voting-DApp",
