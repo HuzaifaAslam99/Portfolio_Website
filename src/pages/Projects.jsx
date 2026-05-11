@@ -15,7 +15,7 @@ import blockchainIcon from "../assets/images/blockchain.png";
 
 const PROJECTS = [
   {
-    title: "Web3 Food Cart DApp",
+    title: "Web3 Food Ordering DApp",
     image: foodCartImg,
     description:
       "A full-stack decentralized food ordering system accepting ETH & USDC on Base Sepolia. To prevent lost payments when users disconnect mid-transaction, I built a robust server-side verification system. Orders are saved as 'pending' in MongoDB, Solidity smart contracts handle the payment, and Alchemy Webhooks trigger the backend to cryptographically verify the blockchain event before updating the database to 'paid'. This is my flagship project demonstrating advanced async state management.",
@@ -27,7 +27,7 @@ const PROJECTS = [
     title: "Cricket Tickets DApp",
     image: ticketImg,
     description:
-      "A decentralized event ticketing platform applying the same bulletproof event-driven architecture as my Food Cart DApp. Users securely purchase cricket tickets using crypto. The system stores ticket metadata/IPFS hashes on the blockchain, while the backend independently verifies the transaction via webhooks to update the order status in MongoDB. This proves the scalability of the Webhook architecture across different Web3 use cases.",
+      "A decentralized event ticketing platform applying the same bulletproof event-driven architecture as my Food Ordering DApp. Users securely purchase cricket tickets using crypto. The system stores ticket metadata/IPFS hashes on the blockchain, while the backend independently verifies the transaction via webhooks to update the order status in MongoDB. This proves the scalability of the Webhook architecture across different Web3 use cases.",
     tagIcons: [reactIcon, tailwindIcon, nodeIcon, expressIcon, mongoIcon, hardhatIcon, solidityIcon, blockchainIcon],
     tagNames: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Hardhat", "Solidity"],
     github: "https://github.com/HuzaifaAslam99/CricketVault-DApp",
