@@ -152,7 +152,7 @@ export default function Home({ scrollTo }) {
       <div style={{ display: "flex", gap: 16, marginTop: 8 }}>
         {/* LinkedIn — inline SVG (no linkedin.svg in assets) */}
         <a
-          href="https://linkedin.com/in/huzaifa-aslam"
+          href="https://www.linkedin.com/in/huzaifa-aslam-4845152aa/"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
@@ -170,8 +170,8 @@ export default function Home({ scrollTo }) {
           </svg>
         </a>
 
-        <SocialBtn href="https://github.com/huzaifaaslam" icon={githubIcon} alt="GitHub" />
-        <SocialBtn href="https://instagram.com/huzaifaaslam" icon={instagramIcon} alt="Instagram" />
+        <SocialBtn href="https://github.com/HuzaifaAslam99" icon={githubIcon} alt="GitHub" />
+        <SocialBtn href="https://www.instagram.com/huzaifaaslam99/" icon={instagramIcon} alt="Instagram" />
       </div>
 
       {/* CTA buttons */}
