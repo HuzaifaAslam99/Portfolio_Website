@@ -102,11 +102,9 @@ function CTABtn({ label, onClick, filled }) {
 
 export default function Home({ scrollTo }) {
   const role = useTyped([
-    "Software Engineer",
-    "Frontend Developer",
-    "Backend Developer",
     "Blockchain Developer",
     "FullStack Developer",
+    "Software Engineer",
   ]);
 
   return (
