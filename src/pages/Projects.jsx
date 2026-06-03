@@ -1,7 +1,7 @@
 import foodCartImg from "../assets/images/foodcart.png";
 import ticketImg from "../assets/images/tickets.png";
 import votingImg from "../assets/images/voting.png";
-import DefiPriceImg from "../assets/images/DefiPrice.png";
+import DefiPriceImg from "../assets/images/DefiPrice.PNG";
 import githubIcon from "../assets/svg/github.svg";
 
 import tailwindIcon from "../assets/images/tailwind.png";
