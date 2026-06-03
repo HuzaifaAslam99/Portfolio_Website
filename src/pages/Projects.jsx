@@ -1,7 +1,8 @@
 import foodCartImg from "../assets/images/foodcart.png";
 import ticketImg from "../assets/images/tickets.png";
 import votingImg from "../assets/images/voting.png";
-import githubIcon from "../assets/svg/github.svg"; // Assuming you still use this somewhere in your UI
+import DefiPriceImg from "../assets/images/DefiPrice.png";
+import githubIcon from "../assets/svg/github.svg";
 
 import tailwindIcon from "../assets/images/tailwind.png";
 import jsIcon from "../assets/images/js.png";
@@ -12,6 +13,11 @@ import mongoIcon from "../assets/images/mongoDB.png";
 import hardhatIcon from "../assets/images/hardhat.png";
 import solidityIcon from "../assets/images/solidity2.png";
 import blockchainIcon from "../assets/images/blockchain.png";
+import wagmiIcon from "../assets/images/wagmi.png";
+import chainlinkIcon from "../assets/images/chainlink.png";
+import graphQLIcon from "../assets/images/graphQL.png";
+
+
 
 const PROJECTS = [
   {
@@ -33,7 +39,7 @@ const PROJECTS = [
     github: "https://github.com/HuzaifaAslam99/CricketVault-DApp",
   },
 
-    {
+  {
     title: "Voting DApp",
     image: votingImg,
     description:
@@ -41,6 +47,16 @@ const PROJECTS = [
     tagIcons: [reactIcon, tailwindIcon, hardhatIcon, solidityIcon, blockchainIcon],
     tagNames: ["React", "Tailwind CSS", "Hardhat", "Solidity"],
     github: "https://github.com/HuzaifaAslam99/Voting-DApp",
+  },
+
+  {
+    title: "DeFi Price Dashboard dApp",
+    image: DefiPriceImg,
+    description:
+      "A real-time DeFi price feed dashboard tracking live ETH, BTC, and LINK prices on Base Sepolia. Chainlink AggregatorV3 oracles feed prices directly into a Solidity smart contract, which emits on-chain events when triggered. The Graph indexes these events and serves them via GraphQL, while Wagmi hooks read live prices every 10 seconds directly from the contract. RainbowKit handles full wallet lifecycle management. This project demonstrates a dual data strategy, separating live contract reads from indexed historical data and my first hands-on integration with DeFi primitives.",
+    tagIcons: [reactIcon, tailwindIcon, hardhatIcon, solidityIcon, wagmiIcon, chainlinkIcon, graphQLIcon, blockchainIcon],
+    tagNames: ["React", "Tailwind CSS", "Hardhat", "Solidity", "Wagmi", "Chainlink", "GraphQL"],
+    github: "https://github.com/HuzaifaAslam99/DeFi-Price-Dashboard-DApp",
   },
 ];
 

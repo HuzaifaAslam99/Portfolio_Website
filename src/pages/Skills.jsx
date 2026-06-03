@@ -9,7 +9,9 @@ import mongoIcon from "../assets/images/mongoDB.png";
 import hardhatIcon from "../assets/images/hardhat.png";
 import solidityIcon from "../assets/images/solidity.png";
 import blockchainIcon from "../assets/images/blockchain.png";
-
+import wagmiIcon from "../assets/images/wagmi.png";
+import chainlinkIcon from "../assets/images/chainlink.png";
+import graphQLIcon from "../assets/images/graphQL.png";
 
 const SKILLS = [
   { name: "HTML",        icon: htmlIcon },
@@ -22,6 +24,9 @@ const SKILLS = [
   { name: "MongoDB",     icon: mongoIcon },
   { name: "Solidity",    icon: solidityIcon },
   { name: "Hardhat",     icon: hardhatIcon },
+  { name: "Wagmi",       icon: wagmiIcon },
+  { name: "Chainlink",   icon: chainlinkIcon },
+  { name: "GraphQL",     icon: graphQLIcon },
   { name: "Blockchain",  icon: blockchainIcon },
 ];
 
